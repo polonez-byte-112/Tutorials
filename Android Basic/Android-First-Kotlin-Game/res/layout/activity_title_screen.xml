@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C2122"
+    tools:context=".TitleScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="270dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:gravity="center"
+            android:shadowColor="#1C2122"
+            android:text="Short Adventure"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#FFFCFC"
+            android:textColorHighlight="#100C0C"
+            android:textColorLink="#FFFFFF"
+            android:textSize="36sp"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/TitleimageView"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="12dp"
+            android:layout_weight="9"
+            app:srcCompat="@drawable/gate" />
+
+        <Button
+            android:id="@+id/StartButton"
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:layout_margin="50dp"
+            android:layout_marginBottom="108dp"
+            android:layout_weight="1"
+            android:onClick="goGameScreen"
+            android:text="Start"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
