@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PraciticeRecycleView</string>
+
+    <string-array name="app_names">
+    <item>Netflix</item>
+    <item>Twitch</item>
+    <item>Snapchat</item>
+    <item>Firefox</item>
+    <item>Chrome</item>
+    <item>Amazon</item>
+    <item>Web browser</item>
+    <item>Tinder</item>
+    <item>Discord</item>
+    <item>Google Drive</item>
+    <item>Instagram</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Streaming movies service</item>
+        <item>Streaming games service</item>
+        <item>Sharing videos with friends</item>
+        <item>Web browser from Mozilla </item>
+        <item>Web browser from Google </item>
+        <item>Buying stuff service</item>
+        <item>Native web browser in every phone</item>
+        <item>App that alows meet people</item>
+        <item>Online talk service with chat</item>
+        <item>Storage service</item>
+        <item>Share your photos to  large community</item>
+    </string-array>
+</resources>
