@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tab Layout</string>
+
+    <string-array name="tabs_texts">
+        <item>Item 1 text</item>
+        <item>Item 2text</item>
+        <item>Item 3 text</item>
+        <item>Item 4 text</item>
+    </string-array>
+</resources>
