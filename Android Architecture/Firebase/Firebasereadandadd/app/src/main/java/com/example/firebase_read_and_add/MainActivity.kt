@@ -1,5 +1,6 @@
 package com.example.firebase_read_and_add
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -24,6 +25,7 @@ class MainActivity : AppCompatActivity() {
                 mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener {
                     if(it.isSuccessful) {
                         Toast.makeText(this,"Login succesfull", Toast.LENGTH_SHORT).show()
+
                     } else {
                         Toast.makeText(this,"You must have entered the wrong email or password", Toast.LENGTH_SHORT).show()
                     }
@@ -32,6 +34,11 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this,"Please enter email and password", Toast.LENGTH_SHORT).show()
             }
 
+        }
+
+        changeActivity_btn.setOnClickListener {
+            mAuth.signOut()
+            startActivity(Intent(this, RegisterActivity::class.java))
         }
     }
 
